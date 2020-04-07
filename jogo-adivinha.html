@@ -1,0 +1,33 @@
+
+<!-- saved from url=(0056)file:///P:/miniProjects/web-exercises/jogo-adivinha.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252"><script>
+
+function pulaLinha() {
+        document.write("<br>");
+        document.write("<br>");
+    }
+
+function mostra(frase) {
+        document.write(frase);
+        pulaLinha();
+    }
+
+var numeroPensado = Math.round(Math.random() * 10 )
+    chute = parseInt(prompt ("Escreva um numero")) ;
+
+if  (chute == numeroPensado) {
+
+    mostra("Voce acertou!");
+}  else {
+
+    mostra("Voce errou, numero pensado foi " + numeroPensado );
+}
+
+
+
+
+
+
+
+
+</script>
