@@ -1,4 +1,4 @@
-# Aprendendo sobre CANVAS dentro do HTML
+# Aprendendo sobre o CANVAS dentro do HTML
 
 ## Oque é CANVAS?
 
